@@ -1,0 +1,48 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.iws
+*.ipr
+
+# Build output
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+gradle/
+build/
+
+# Spring Boot
+spring-boot-devtools.properties
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+.claude/
+*.log
+node_modules/
+npm-debug.log*
