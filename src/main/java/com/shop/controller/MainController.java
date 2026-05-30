@@ -9,6 +9,6 @@ public class MainController {
     // 메인 페이지
     @GetMapping("/")
     public String index() {
-        return "index";
+        return "forward:/index.html";
     }
 }

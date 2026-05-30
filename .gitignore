@@ -46,3 +46,4 @@ Thumbs.db
 *.log
 node_modules/
 npm-debug.log*
+src/main/resources/static/index.html
