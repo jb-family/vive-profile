@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOIR — 의류 쇼핑몰</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- 헤더: 로고(좌) | 카테고리(중앙) | 액션버튼(우) -->
+    <header class="header" id="header">
+        <div class="header-inner">
+
+            <!-- 좌: 로고 -->
+            <a href="/" class="logo">NOIR</a>
+
+            <!-- 중앙: 카테고리 내비게이션 -->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="/category/top" class="nav-link">상의</a></li>
+                    <li><a href="/category/bottom" class="nav-link">하의</a></li>
+                    <li><a href="/category/outer" class="nav-link">아우터</a></li>
+                    <li><a href="/category/accessory" class="nav-link">악세사리</a></li>
+                </ul>
+            </nav>
+
+            <!-- 우: 검색, 로그인, 장바구니 -->
+            <div class="header-actions">
+                <a href="/search" class="action-icon" title="검색">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="/login" class="action-btn">로그인</a>
+                <a href="/signup" class="action-btn">회원가입</a>
+                <a href="/cart" class="action-icon cart-icon" title="장바구니">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- 메인 컨텐츠 -->
+    <main>
+
+        <!-- 히어로 섹션 -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="hero-sub">NEW COLLECTION 2025</p>
+                <h1 class="hero-title">당신의 스타일,<br>당신의 이야기</h1>
+                <a href="/category/top" class="hero-btn">컬렉션 보기</a>
+            </div>
+        </section>
+
+        <!-- 카테고리 섹션 -->
+        <section class="categories">
+            <h2 class="section-title">CATEGORIES</h2>
+            <div class="category-grid">
+
+                <!-- 상의: 크롭탑 착용 여성 -->
+                <a href="/category/top" class="category-card">
+                    <div class="category-img"
+                         style="background-image: url('https://images.unsplash.com/photo-1503707142f5ed0e5f20578f8cc3cdcc9e5c47b09?w=600&h=800&fit=crop&q=80')">
+                    </div>
+                    <div class="category-info">
+                        <span class="category-label">상의</span>
+                        <span class="category-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <!-- 하의: 청바지 착용 여성 -->
+                <a href="/category/bottom" class="category-card">
+                    <div class="category-img"
+                         style="background-image: url('https://images.unsplash.com/photo-1510390099355-23e690d8129d?w=600&h=800&fit=crop&q=80')">
+                    </div>
+                    <div class="category-info">
+                        <span class="category-label">하의</span>
+                        <span class="category-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <!-- 아우터: 재킷 착용 여성 -->
+                <a href="/category/outer" class="category-card">
+                    <div class="category-img"
+                         style="background-image: url('https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=600&h=800&fit=crop&q=80')">
+                    </div>
+                    <div class="category-info">
+                        <span class="category-label">아우터</span>
+                        <span class="category-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <!-- 악세사리: 골드 주얼리 -->
+                <a href="/category/accessory" class="category-card">
+                    <div class="category-img"
+                         style="background-image: url('https://images.unsplash.com/photo-1569388330338-53ecda03dfa1?w=600&h=800&fit=crop&q=80')">
+                    </div>
+                    <div class="category-info">
+                        <span class="category-label">악세사리</span>
+                        <span class="category-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <p class="footer-text">© 2025 NOIR. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
